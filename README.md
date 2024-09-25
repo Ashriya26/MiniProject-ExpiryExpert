@@ -7,7 +7,7 @@ ExpiryExpert is a blockchain-based solution for managing product expiry. It ensu
 - **Add Products**: Easily add product details including name, batch number, and expiry date.
 - **Check Expiry**: Users can check the expiry status of products, ensuring safety.
 - **Delete Products**: Remove products from the system as needed.
-- **Edit Products**:Edit the contents of the items as required.
+- **Edit Products**: Edit the contents of the items as required.
 - **Tamper-Proof Data**: Utilize blockchain technology to prevent unauthorized data manipulation.
 
 ## Screenshots
@@ -47,12 +47,8 @@ ExpiryExpert is a blockchain-based solution for managing product expiry. It ensu
 5. **View All Products**:
    - Navigate to the "View Products" section to see a list of all added products and click on any product to view its details and expiry status.
 
-6.**Expiring soon**:
-  - This section contains all the products that are on the verge of expiring.
+6. **Expiring Soon**:
+   - This section contains all the products that are on the verge of expiring.
 
-7.**Expired**:
-  - This section contains all the products that have expired.
-
-
-
-
+7. **Expired**:
+   - This section contains all the products that have expired.

@@ -1,19 +1,6 @@
 # MiniProject-ExpiryExpert
 
-ExpiryExpert is a blockchain-based solution for managing product expiry. This innovative application ensures secure and transparent tracking of products throughout their lifecycle, providing users with a reliable method to manage product safety effectively. 
-
-With the increasing number of perishable goods and the critical need for consumer safety, ExpiryExpert addresses the challenges of tracking product expiry dates. Utilizing blockchain technology, it guarantees tamper-proof data management, allowing users to maintain trust in the information provided. 
-
-The application features a user-friendly interface that simplifies the process of adding, editing, and deleting product information. Users can effortlessly input product details, including name, batch number, and expiry date, while the system performs real-time checks on the expiry status. This ensures that users are always informed about the freshness of their products.
-
-Key features include:
-- **Add Products**: Easily add product details to the system, ensuring comprehensive records.
-- **Check Expiry**: Users can quickly check the expiry status of products, enhancing safety.
-- **Delete Products**: Streamline inventory management by removing outdated products.
-- **Edit Products**: Modify product information as necessary to keep records current.
-- **Tamper-Proof Data**: Protect data integrity through the secure nature of blockchain technology.
-
-With ExpiryExpert, users not only improve their product management practices but also contribute to a safer consumption environment by ensuring that only safe and fresh products are available. 
+ExpiryExpert is a blockchain-based solution for managing product expiry. It ensures secure and transparent tracking of products throughout their lifecycle.
 
 ## Features
 
@@ -33,6 +20,28 @@ With ExpiryExpert, users not only improve their product management practices but
 
 ![Deleting Product](https://github.com/Ashriya26/MiniProject-ExpiryExpert/blob/main/images/delete.png)
 *Deleting a Product*
+
+## Video Clips
+
+Here are some video clips showcasing the functionality of the ExpiryExpert Dapp, including adding, editing, and deleting items.
+
+### Adding Products
+
+The following video demonstrates how to add new products to the ExpiryExpert system. This process involves providing product details such as the name, batch number, and expiry date. Once the product is added, it is securely stored in the blockchain and can be accessed for further actions like checking expiry or editing.
+
+![Add Product Video]()
+
+### Editing Products
+
+This video showcases how to edit existing product information in ExpiryExpert. Users can modify any details associated with a product, such as the name, batch number, or expiry date. Editing is particularly useful when incorrect information needs to be updated or the product details have changed over time.
+
+[![Edit Product Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+### Deleting Products
+
+Watch this video to see how products can be removed from the ExpiryExpert system. Deleting a product ensures that it is no longer part of the active list, streamlining product management and ensuring only valid, up-to-date entries remain in the system.
+
+[![Delete Product Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Technologies Used
 

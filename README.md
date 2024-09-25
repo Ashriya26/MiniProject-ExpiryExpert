@@ -54,15 +54,6 @@ ExpiryExpert is a blockchain-based solution for managing product expiry. It ensu
    - This section contains all the products that have expired.
   
 
-# Your Project Title
-
-## Project Demo
-
-This video will demonstrate the main features and functionalities of the project, providing a step-by-step guide on how to use it effectively. You'll see how to navigate through the application, interact with its various components, and understand the overall workflow.
-
-[![Project Video](https://github.com/Ashriya26/MiniProject-ExpiryExpert/blob/main/images/video.mp4)]
-
-Make sure to watch the video to get a comprehensive overview of what the project offers!
 
 
 

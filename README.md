@@ -12,14 +12,14 @@ ExpiryExpert is a blockchain-based solution for managing product expiry. It ensu
 
 ## Screenshots
 
-![Add Product](path/to/add-product-screenshot.png)
+![Add Product]([path/to/add-product-screenshot.png](https://github.com/Ashriya26/MiniProject-ExpiryExpert/blob/main/images/add.png))
 *Adding a Product*
 
 ![Check Expiry](path/to/check-expiry-screenshot.png)
 *Checking Expiry Status*
 
-![Transfer Ownership](path/to/transfer-ownership-screenshot.png)
-*Transferring Ownership*
+![Deleting Product](path/to/transfer-ownership-screenshot.png)
+*Deleting a Product*
 
 ## Technologies Used
 

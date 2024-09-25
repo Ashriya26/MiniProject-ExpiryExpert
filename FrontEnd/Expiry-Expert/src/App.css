@@ -1,0 +1,321 @@
+:root {
+  --text: #d4c6d4;
+  --background: #292934;
+  --primary: #8a0899;
+  --secondary: #dbadff;
+  --accent: #361397;
+  --linearPrimarySecondary: linear-gradient(#8a0899, #dbadff);
+  --linearPrimaryAccent: linear-gradient(#8a0899, #361397);
+  --linearSecondaryAccent: linear-gradient(#dbadff, #361397);
+  --radialPrimarySecondary: radial-gradient(#8a0899, #dbadff);
+  --radialPrimaryAccent: radial-gradient(#8a0899, #361397);
+  --radialSecondaryAccent: radial-gradient(#dbadff, #361397);
+  --linearSecondaryPrimary: linear-gradient(#dbadff, #8a0899);
+  --radialAccentPrimary: radial-gradient(#361397, #8a0899);
+  --linearAccentPrimary: linear-gradient(#361397, #8a0899);
+}
+body {
+  background-color: var(--background);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(rgb(41, 14, 44), var(--background));
+  padding: 1px;
+}
+header h1 {
+  color: var(--primary);
+  font-size: 35px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly between items */
+  align-items: center; /* Align items vertically centered */
+  margin: 0px;
+  background-color: var(--sec);
+  font-size: 17px;
+}
+
+nav li {
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--secondary);
+}
+
+nav li:hover {
+  color: var(--primary);
+}
+
+nav li button {
+  margin-left: 5px; /* Add some space between the category name and the edit button */
+}
+
+.navbar {
+  color: black;
+}
+.product-form {
+  border: 1px solid #ddd;
+  padding: 0px;
+  margin: 5px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background: radial-gradient(var(--background), rgb(0, 0, 0, 0.5));
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0px;
+  margin: 0px;
+}
+.form-column {
+  padding: 0px;
+}
+
+.product-form button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.product-form button:hover {
+  background-color: var(--accent);
+}
+
+.product-form form {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.product-form label {
+  margin-bottom: 10px;
+}
+
+.category-selector {
+  margin: 20px;
+  padding-right: 20px;
+}
+
+.category-selector label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.floating-button {
+  background: var(--linearPrimaryAccent);
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.floating-button:hover {
+  background: var(--linearAccentPrimary);
+}
+
+.gradient-text {
+  background: var(--linearPrimaryAccent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--secondary);
+  color: var(--background);
+}
+
+button {
+  margin: 5px;
+}
+.edit {
+  cursor: pointer;
+  background: url(../public/images/edit1.png);
+  background-repeat: no-repeat;
+  border: none;
+  height: 32px;
+  width: 32px;
+  position: relative; /* Ensure the button is relative for absolute positioning of pseudo-element */
+}
+
+.edit:hover {
+  cursor: pointer;
+  background: url(../public/images/edit2.png);
+  background-repeat: no-repeat;
+  border: none;
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+
+.delete {
+  cursor: pointer;
+  background: url(../public/images/delete1.png);
+  background-repeat: no-repeat;
+  border: none;
+  height: 32px;
+  width: 32px;
+  position: relative; /* Ensure the button is relative for absolute positioning of pseudo-element */
+}
+
+.delete:hover {
+  cursor: pointer;
+  background: url(../public/images/delete2.png);
+  background-repeat: no-repeat;
+  border: none;
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.product-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.product-form .form-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  margin-top: 10px;
+
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  width: 450px;
+}
+
+.product-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.product-form select,
+.product-form input,
+.product-form textarea,
+.product-form button {
+  padding: 10px;
+  margin: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.product-form button {
+  margin-top: 5px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-form button:hover {
+  background: var(--accent);
+}
+
+.product-form {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.form-column {
+  padding: 20px;
+}
+
+video {
+  width: 100%;
+}
+
+.canvas-container {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  nav ul {
+    margin-top: 0;
+    padding-top: 0;
+    display: none; /* Hide the navigation list by default on mobile */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #nav {
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .menu-icon {
+    display: flex; /* Show the expand icon */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 46.3vw;
+    justify-content: center;
+  }
+
+  .product-form .form-column {
+    width: 80vw;
+  }
+  .expanded ul {
+    display: flex; /* Show the navigation list when expanded */
+  }
+
+  .expanded .expand-icon {
+    background: url(../public/images/menu1.png) no-repeat center center; /* Replace with your collapse icon image path */
+  }
+}

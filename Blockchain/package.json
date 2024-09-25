@@ -1,0 +1,19 @@
+{
+  "name": "expiry-expert-blockchain",
+  "version": "1.0.0",
+  "description": "Truffle project for Expiry Expert blockchain integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "deploy": "truffle migrate --reset",
+    "console": "truffle console"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "truffle": "^5.11.5"
+  }
+}

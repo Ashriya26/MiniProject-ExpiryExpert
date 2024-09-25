@@ -48,10 +48,10 @@ ExpiryExpert is a blockchain-based solution for managing product expiry. It ensu
    - Navigate to the "View Products" section to see a list of all added products and click on any product to view its details and expiry status.
 
 6.**Expiring soon**:
-  -This section contains all the products that are on the verge of expiring.
+  - This section contains all the products that are on the verge of expiring.
 
 7.**Expired**:
-  -This section contains all the products that have expired.
+  - This section contains all the products that have expired.
 
 
 
